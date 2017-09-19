@@ -40,8 +40,8 @@ return [
     */
 
     'waits' => [
-        'redis:default'     => 90,
-        'redis:hurry_queue'  => 1,
+        'redis:default'         => 90,
+        'redis:hurry_queue'     => 1,
     ],
 
     /*
@@ -71,6 +71,7 @@ return [
                 'connection'    => 'redis',
                 'queue'         => ['default', 'notification', 'hurry_queue'],
                 'balance'       => 'simple',
+                // 'balance'       => 'auto',
                 'processes'     => 20,
                 'minProcesses'  => 2,
                 'tries'         => 3,
