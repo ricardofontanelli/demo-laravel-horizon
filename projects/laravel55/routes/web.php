@@ -15,6 +15,7 @@
 Route::view('/', 'welcome', ['location' => 'FTD']);
 Route::redirect('/here', '/there');
 Route::view('/there', 'redirect');
+Route::fallBack('HomeController@notFound');
 
 // CUSTOM EXCEPTION REPORT / RENDER -----------------------------------------------------------------------------------------
 Route::get('/whoops', function () {
