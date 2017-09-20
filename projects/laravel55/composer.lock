@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8799ac2e2b663aa08ce6328821530140",
+    "content-hash": "4fdb0e3aa815ec22c88064ee37a254c6",
     "packages": [
         {
             "name": "cakephp/chronos",
@@ -462,16 +462,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.5.4",
+            "version": "v5.5.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "d3e0493bead126cf7fb9a005c64e6b58a9190e51"
+                "reference": "a0fdfd2c90318c107b6a8d69189ec9a6607379e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/d3e0493bead126cf7fb9a005c64e6b58a9190e51",
-                "reference": "d3e0493bead126cf7fb9a005c64e6b58a9190e51",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/a0fdfd2c90318c107b6a8d69189ec9a6607379e3",
+                "reference": "a0fdfd2c90318c107b6a8d69189ec9a6607379e3",
                 "shasum": ""
             },
             "require": {
@@ -590,7 +590,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2017-09-13T13:36:29+00:00"
+            "time": "2017-09-20T13:45:36+00:00"
         },
         {
             "name": "laravel/horizon",
@@ -1431,16 +1431,16 @@
         },
         {
             "name": "ricardofontanelli/laravel-telegram",
-            "version": "1.0",
+            "version": "1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ricardofontanelli/laravel-telegram.git",
-                "reference": "b5e109fd748d4abe6e8388a4d050ba069196f516"
+                "reference": "e4e137f317c432f54c20c70da4d305e2da90936b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ricardofontanelli/laravel-telegram/zipball/b5e109fd748d4abe6e8388a4d050ba069196f516",
-                "reference": "b5e109fd748d4abe6e8388a4d050ba069196f516",
+                "url": "https://api.github.com/repos/ricardofontanelli/laravel-telegram/zipball/e4e137f317c432f54c20c70da4d305e2da90936b",
+                "reference": "e4e137f317c432f54c20c70da4d305e2da90936b",
                 "shasum": ""
             },
             "require": {
@@ -1448,6 +1448,16 @@
                 "php": ">=5.3.0"
             },
             "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "RicardoFontanelli\\LaravelTelegram\\TelegramServiceProvider"
+                    ],
+                    "aliases": {
+                        "Telegram": "RicardoFontanelli\\LaravelTelegram\\TelegramFacade"
+                    }
+                }
+            },
             "autoload": {
                 "psr-0": {
                     "RicardoFontanelli\\LaravelTelegram\\": "src/"
@@ -1473,9 +1483,10 @@
                 "laravel 5",
                 "messages",
                 "provider",
+                "service provider",
                 "telegram"
             ],
-            "time": "2017-02-15T18:06:38+00:00"
+            "time": "2017-09-20T13:30:30+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",

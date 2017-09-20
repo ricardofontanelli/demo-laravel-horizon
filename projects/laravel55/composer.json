@@ -10,7 +10,7 @@
         "laravel/framework": "5.5.*",
         "laravel/horizon": "^1.0",
         "laravel/tinker": "~1.0",
-        "ricardofontanelli/laravel-telegram": "1.0"        
+        "ricardofontanelli/laravel-telegram": "1.*"        
     },
     "require-dev": {
         "filp/whoops": "~2.0",
