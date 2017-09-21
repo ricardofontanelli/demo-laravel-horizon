@@ -290,6 +290,11 @@ php:
         error_reporting: '-1'
         session.save_path: /var/lib/php/session
         date.timezone: America/Sao_Paulo
+        opcache.memory_consumption: 512
+        opcache.interned_strings_buffer: 64
+        opcache.max_accelerated_files: 32531
+        opcache.fast_shutdown: 1
+        opcache.revalidate_freq: 0
     fpm_ini:
         error_log: /var/log/php-fpm.log
     fpm_pools:

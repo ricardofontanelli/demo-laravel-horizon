@@ -6,11 +6,12 @@
     "type": "project",
     "require": {
         "php": ">=7.0.0",
+        "appstract/laravel-opcache": "^1.2",
         "fideloper/proxy": "~3.3",
         "laravel/framework": "5.5.*",
         "laravel/horizon": "^1.0",
         "laravel/tinker": "~1.0",
-        "ricardofontanelli/laravel-telegram": "1.*"        
+        "ricardofontanelli/laravel-telegram": "1.*"
     },
     "require-dev": {
         "filp/whoops": "~2.0",
