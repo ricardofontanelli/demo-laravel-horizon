@@ -29,6 +29,6 @@ class SlowTask implements ShouldQueue
      */
     public function handle()
     {
-        sleep(60);
+        sleep(10);
     }
 }
